@@ -119,3 +119,16 @@ footer {
     justify-content: center;
     color: white;
 }
+
+.hobby_text {
+    font-size: 30px;
+}
+
+.dance_img img{
+    width: 500px;
+}
+
+.game_img img{
+    width: 500px;
+}
+   

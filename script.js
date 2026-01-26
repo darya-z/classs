@@ -30,5 +30,17 @@ function scrollDown() {
 }
 scrol_btn.addEventListener('click', scrollDown)
 
+anime({
+    targets: '.name',
+    translateX: [
+        {value: 0, duration: 0},
+        {value: 100,duration: 1000},
+        {value: 0,duration: 1000},
+    ],
+    delay: 1000,
+    loop: true,
+    easing: 'linear'
+})
+
 
 
